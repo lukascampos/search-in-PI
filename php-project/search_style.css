@@ -1,0 +1,104 @@
+/* formulário */
+
+#main_form{
+    text-align: center;
+}
+
+#conteudo{ /*centralizando o conteúdo*/
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+}
+
+#main_form{ /*centralizando o conteúdo*/
+    margin: 0 !important;
+    padding: 0 !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    -ms-transform: translate(-50%, -50%) !important;
+    transform: translate(-50%, -50%) !important;
+}
+
+.relative{
+    width: 100vw;
+}
+
+#titulo{
+    text-align: center;
+    margin-top: 5vw;
+    margin-bottom: 2%;
+    font-family: 'nimbus';
+    font-weight: bold;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#form{ /*características do formulário*/
+    border: 1px solid black;
+    display: inline;
+    box-sizing: border-box;
+    width: 60%;
+    height: 40px;
+    margin-bottom: 3%;
+}
+
+#send-btn{ /*características do botão*/
+    font-family: 'nimbus';
+    font-weight: bold;
+    border: 1px solid black;
+    background-color: black;
+    text-transform: uppercase;
+    color: white;
+    height: 40px;
+    padding: .5rem 30px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+#send-btn:hover, #send-btn:focus, #send-btn:active{ /*"animações" do botão de enviar*/
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#verify-btn{ /*botão invisível que aciona o popup*/
+    visibility: hidden;
+}
+
+#txt1{
+    margin-bottom: -.8px;
+    font-size: 95%;
+    font-family: 'nimbus';
+}
+
+#txt2{
+    font-size: 95%;
+    font-family: 'nimbus';
+}
+
+/* MODAL */
+#modal-body{
+    word-break: break-all;
+    text-align: center;
+    font-family: 'nimbus';
+}
+
+
+
+
+
+
+
+
+
+
